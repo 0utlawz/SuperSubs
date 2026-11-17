@@ -18,7 +18,7 @@ docs/SuperSubs_status.pdf
 tools/build_report.py
 tools/build_status.py
 tools/report_data.py
-tools/requirements-report.txt
+# (tools/build_technical_document.py builds the technical document and is public.)
 
 # -- candidate models: rebuilt with train.py --candidate <name>; only the live one is published ---
 models/possession_*.pkl

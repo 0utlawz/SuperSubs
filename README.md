@@ -82,8 +82,8 @@ Test sets, never trained or tuned on:
 The World Cup data is free from PFF FC on request (a form on their blog post "Get Free Access to
 Our Enhanced 2022 World Cup Dataset!"); put it in `../external-data/pff/` and pass
 `--matches PFF10502,PFF10512,...` (the list is `external.PFF_MATCHES`). Adding the World Cup or
-Metrica matches to training was tried (`train.py --candidate v13`, `v11`): each helped only on its
-own source and made the others worse, so neither is used.
+Metrica matches to training was tried (`train.py --candidate v13`, `v11`): neither improved the
+Bundesliga or Metrica tests (the World Cup matches made both worse), so neither is used.
 
 The DFL tracking is clean and freezes the ball during stoppages, so `possession/external.py` carries
 the ball to the restart spot and degrades the tracking to imitate an automatic tracker.

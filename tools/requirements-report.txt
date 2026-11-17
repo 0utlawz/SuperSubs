@@ -1,0 +1,4 @@
+# Only for building the documents (tools/build_technical_document.py). Not needed to regenerate the submission.
+matplotlib==3.9.4
+reportlab==4.2.5
+pypdfium2==4.30.0
