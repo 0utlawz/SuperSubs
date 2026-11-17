@@ -1,0 +1,33 @@
+# This repository is public. The match data is not, and nothing derived from it frame by frame
+# may be published either -- see RULES.md in the official repository.
+
+# -- match data and anything derived from it ----------------------------------------------------
+data/
+cache/
+outputs/
+reports/
+*.csv
+*.npz
+*.mp4
+
+# -- internal team documents and the scripts that build them ------------------------------------
+# Working notes for the three of us, with the history of the design. The technical document is
+# submitted through the form.
+docs/SuperSubs_progress_report.pdf
+docs/SuperSubs_status.pdf
+tools/build_report.py
+tools/build_status.py
+tools/report_data.py
+tools/requirements-report.txt
+
+# -- candidate models: rebuilt with train.py --candidate <name>; only the live one is published ---
+models/possession_*.pkl
+
+# -- environment and editors --------------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+.DS_Store

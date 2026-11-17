@@ -1,0 +1,2 @@
+# Only for tools/make_overlay.py. Not needed to regenerate the submission.
+opencv-python-headless==4.10.0.84
